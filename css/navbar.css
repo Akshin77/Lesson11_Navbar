@@ -13,8 +13,7 @@ body{
 
 .MySize{
     font-size: 70px;
-    padding: 15px;
-    padding-left: 20%;
+
 }
 
 .logo{
@@ -22,6 +21,9 @@ body{
     min-height: inherit;
     background: blue;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
