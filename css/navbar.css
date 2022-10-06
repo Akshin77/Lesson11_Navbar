@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+.nav{
+    width: 100%;
+    min-height: 100px;
+    background: lightblue;
+    float: left;
+}
+
+.MySize{
+    font-size: 70px;
+    padding: 15px;
+    padding-left: 20%;
+}
+
+.logo{
+    width: 30%;
+    min-height: inherit;
+    background: blue;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    min-height: inherit;
+    background: green;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    margin: 0 30px;
+    font-size: 32px;
+    color: lightblue;
+    letter-spacing: 4px;
+    border: solid transparent;
+    transition: 0.3s;
+}
+
+.menu ul li:hover {
+    color: yellow;
+    cursor: pointer;
+    border: solid red;
+    border: 2px 0;
+}
